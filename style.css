@@ -98,6 +98,18 @@ h1 {
     border-radius: 5px;
 
     font-family: Cursed Timer ULiL;
-    margin: 80px auto;
+    margin: 10px auto 80px;
+    padding: 8px 5px 5px 5px;
+}
+
+
+#newG2 {
+    display: flex;
+    background: floralwhite;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+
+    font-family: Cursed Timer ULiL;
+    margin: 80px auto 0px;
     padding: 8px 5px 5px 5px;
 }
