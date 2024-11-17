@@ -39,7 +39,23 @@ function AincreseThree(){
 }
 
 
-function newGame(){
-	homeScore.textContent = 0
-	awayScore.textContent = 0
+function stopGame() {
+  let resultText = '';
+  if (hs > as) {
+    resultText = 'Home Team wins';
+  } else if (hs < as) {
+    resultText = 'Away Team wins';
+  } else {
+    resultText = 'It\'s a tie';
+  }
+  document.getElementById("newG2").innerText = resultText;
+}
+
+
+function newGame() {
+  hs = 0;
+  as = 0;
+  homeScore.textContent = 0;
+  awayScore.textContent = 0;
+  document.getElementById("newG2").innerText = 'Stop Game';
 }
